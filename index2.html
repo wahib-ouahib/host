@@ -13,6 +13,10 @@
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
   </head>
   <body>
+    <div id="particles-js"></div>
+    <script src="scripts/particles.js" ></script>
+    <script src="scripts/app.js" ></script>
+
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -45,10 +49,12 @@
           <div class="col-md-6 col-sm-6">
             <div class="showcase-right">
               <h1>I make things</h1>
-              <p>Software Engineering Student; I love JavaScript & I have passion for Machine Learning and Artificial Intelligence.</p>
+              <br>
+              <p>Software Engineering Student; I love JavaScript
+                 & I have passion for Machine Learning and Artificial Intelligence.</p>
             </div>
             <br>
-            <a class="btn btn-default btn-lg showcase-btn">Read More</a>
+            <a class="btn btn-default btn-lg showcase-btn" href="#me">Read More</a>
             
           </div>
         </div>
@@ -57,7 +63,7 @@
 
     <section id="testimonial">
       <div class="container">
-        <h1 class="h1 quote">Today's Quote from the Legend Elon Musk </h1>
+        <h1 id="q" class="h1 quote">Today's Quote from the Legend Elon Musk </h1>
         <h2 class="quote">"When something is important enough, you do it 
             even if the odds are not in your favor"
         </h2>
@@ -83,11 +89,15 @@
           </div>
           <div class="col-md-6 col-sm-6">
             <div class="info-right">
-              <h1>Get To Know Me</h1>
-              <p>Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+              <h1 id="me">Get To Know Me</h1>
               <br>
-              <a class="btn btn-default btn-lg">Professional Experience</a>
-              <a class="btn btn-default btn-lg">Professional Projects</a>
+              <p>Adipisicing elit, sed do eiusmod tempor incididunt ut labore 
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud e
+                xercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+              </p>
+              <br>
+              <button class="btn btn-default btn-lg" data-toggle="collapse" data-target="#testimonial2">Professional Experience</button>
+              <a class="btn btn-default btn-lg" href="#info2">Personal Projects</a>
             </div>
           </div>
         </div>
@@ -108,16 +118,45 @@
         <div class="row">
           <div class="col-md-6 col-sm-6">
             <div class="info-left">
-              <h1 class="h1 quote"> Juin-Aout 2018 | Stage technique à Family Web Company,
-                 En partenariat avec l’Institut Français Casablanca, Maroc </h1>
-              <p>Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Adipisicing elit, Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+              <h1 class="h1 quote"> June-August 2018 | Internship at Family Web Company, Casablanca, Morocco  
+              </h1>
+                <div class="sujet">
+                  <p>Subject : Creation of a chatbot dedicated to cultural mediation  </p>
+                  </div>
+                    <div class="ss">
+                      <ul class="ul2">
+                        <li>Developing the solution using Microsoft Azure Bot Services. </li>
+                        <li>Integration of the NLP with Luis.AI to dynamize the BOT. </li>
+                        <li>Coding the Bot with NodeJS and use it in server side.  </li>
+                        <li>Using HTTP for web transmission, Restful APIs, JSON,
+                          & Axios for accessing data.</li>
+                        <li>Testing the chatbot with Bot Framework Emulator V4. </li>
+                    </ul>
+                  </div>                   
             </div>
           </div>
           <div class="col-md-6 col-sm-6">
             <div class="info-right">
-                <h1 class="h1 quote"> Juillet-Aout 2017  | Stage technique au Département informatique
-                   à l’INPT, Rabat, Maroc </h1>
-              <p>Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                <h1 class="h1 quote"> June-August 2017 | Internship at the 
+                  IT departement in INPT, Rabat, Morocco        
+                </h1>
+            </div>
+                  <div class="sujet">
+                  <p>Subject : Building a Real-time chat web app </p>
+                  </div>
+                  <div class="s">
+                    <ul class="ul2">
+                      <li>Using nodejs and express in server side.</li>
+                      <li>Designing the UI with HTML, CSS, Bootstrap 4,
+                         JavaScript, & JQuery.
+                      </li>
+                      <li>Using Web sockets for bilateral exchange between 
+                        client and server.
+                      </li>         
+                     
+                   </ul>
+                  </div>
+                  
             </div>
           </div>
         </div>
@@ -125,24 +164,37 @@
     </section>
 
 <!--section 3-->
-    <section id="info2">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-sm-6">
-              <div class="info-left">
-                <h1>Info Block One</h1>
-                <p>Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Adipisicing elit, Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-6">
-              <div class="info-right">
-                <h1>Info Block Two</h1>
-                <p>Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-              </div>
-            </div>
+  <section id="testimonial2">
+      <div class="container">
+        <h1 id="projects" class="h1 quote">Personal Projects </h1> 
+      </div>
+  </section>
+
+
+<!--projects-->
+
+<section id="showcase">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <div class="showcase-left">
+            <img src="img/image1.jpg">
           </div>
         </div>
-      </section>
+        <div class="col-md-6 col-sm-6">
+          <div class="showcase-right">
+            <h1>I make things</h1>
+            <br>
+            <p>Software Engineering Student; I love JavaScript
+               & I have passion for Machine Learning and Artificial Intelligence.</p>
+          </div>
+          <br>
+          <a class="btn btn-default btn-lg showcase-btn" href="#me">Read More</a>
+          
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
@@ -174,6 +226,10 @@
       </div>
     </section>
 
+    
+
+    
+
     <footer>
       <p class="text-center">Wahib copyright &copy; 2018</p>
     </footer>
@@ -184,61 +240,6 @@
   crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <script>
-        window.sr = ScrollReveal();
-        sr.reveal('.navbar', {
-          duration: 2000,
-          origin:'bottom'
-        });
-        sr.reveal('.showcase-left', {
-          duration: 2000,
-          origin:'top',
-          distance:'300px'
-        });
-        sr.reveal('.showcase-right', {
-          duration: 2000,
-          origin:'right',
-          distance:'300px'
-        });
-        sr.reveal('.showcase-btn', {
-          duration: 2000,
-          delay: 2000,
-          origin:'bottom'
-        });
-        sr.reveal('#testimonial div', {
-          duration: 2000,
-          origin:'bottom'
-        });
-        sr.reveal('.info-left', {
-          duration: 2000,
-          origin:'left',
-          distance:'300px',
-          viewFactor: 0.2
-        });
-        sr.reveal('.info-right', {
-          duration: 2000,
-          origin:'right',
-          distance:'300px',
-          viewFactor: 0.2
-        });
-    </script>
-
-    <script>
-    $(function() {
-      // Smooth Scrolling
-      $('a[href*="#"]:not([href="#"])').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-          if (target.length) {
-            $('html, body').animate({
-              scrollTop: target.offset().top
-            }, 1000);
-            return false;
-          }
-        }
-      });
-    });
-    </script>
+    <script src="scripts/scripts.js"> </script>      
   </body>
 </html>
