@@ -8,20 +8,27 @@ h1,h2,h3,h4,h5,h6{
 }
 
 p{
-  font-family: 'Marck Script', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2em;
+}
+
+.quote{
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .navbar-default{
-  background:#f1f1f1a1;
+  background:#a7e6e64f;
   border:0;
-  font-family:'Yesteryear', cursive;
-  font-size: 2em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 .navbar-brand{
   font-size:20px;
-  color:#f1f1f1;
+  color:#2881bd;
   font-weight:bold;
+  font-family: 'Yesteryear', cursive;
 }
 
 #showcase h1{
@@ -41,7 +48,7 @@ p{
 }
 
 #testimonial{
-  background:#f1f1f1;
+  background:#9cd6d6d8;
   padding: 50px 0 30px 0;
   text-align:center;
   margin-top:40px;
@@ -54,16 +61,27 @@ p{
   color:#000;
 }
 
+#testimonial2{
+  background:#b8ececd8;
+  padding: 0px 0 0px 0;
+  text-align:center;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
 #testimonial p.customer{
   font-size:20px;
   color:#666;
+  margin: 0;
 }
 
 #info1 .info-right{
   margin-top:90px;
+  
 }
 #info1{
   margin-bottom: 38px;
+  
 }
 
 #info2{
@@ -71,10 +89,13 @@ p{
   margin:20px 0 60px 0;
 }
 
+/*Image2 form*/
 #img2{
-  -webkit-clip-path: circle(50% at 50% 50%);
-  clip-path: circle(50% at 50% 50%);
-  margin-left: -100px;
+  
+  width:80%;
+  height: 80%;
+  margin-left: -50px;
+  
   
 }
 
@@ -82,10 +103,19 @@ p{
   background:url(../img/image3.jpg);
   padding:40px;
   color:#fff;
-  border-top:#333 2px solid;
-  border-bottom:#333 2px solid;
+  border-top:#a7e6e673 4px solid;
+  border-bottom:#a7e6e677 4px solid;
 }
 
 footer{
   padding:30px;
 }
+
+.h1{
+  
+  font-family: 'Josefin Sans';
+  margin-bottom: 600  px;
+}
+
+
+/*Image hovering effect*/
