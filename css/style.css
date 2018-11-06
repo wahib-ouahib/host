@@ -20,6 +20,7 @@ p{
 
 .quote{
   font-family: 'Josefin Sans', sans-serif;
+  color: white;
   
 }
 
@@ -45,6 +46,10 @@ p{
   font-family: 'Yesteryear', cursive;
 }
 
+#showcase{
+  margin: 100px;
+}
+
 #showcase h1{
   font-size:50px;
   margin-bottom:20px;
@@ -65,31 +70,31 @@ p{
 }
 
 #testimonial{
-  background:#DEE5E9;
+  background:#3a6883;
   padding: 50px 0 30px 0;
   text-align:center;
-  margin-top:40px;
-  margin-bottom: 40px;
+  margin-top:60px;
+  margin-bottom: 60px;
 }
 
 #testimonial p{
   font-size:32px;
   font-family: 'Yesteryear', cursive;
-  color:#000;
+  color:white;
 }
 
 #testimonial2{
-  color: black;
+  color: white;
   padding: 0px 0 0px 0;
   text-align:center;
-  margin-top:10px;
+  margin-top:100px;
   margin-bottom: 10px;
-  background: #DEE5E9;
+  background: #3a6883;
 }
 
 #testimonial p.customer{
   font-size:20px;
-  color:#666;
+  color:#3a6883;
   margin: 0;
 }
 
@@ -123,7 +128,7 @@ p{
   color:#fff;
   border-top:#a7e6e673 4px solid;
   border-bottom:#a7e6e677 4px solid;
-  margin-top: 80px;
+  margin-top: 200px;
 }
 
 footer{
@@ -210,4 +215,55 @@ h3{
 
 }
 
-/*fwc animation*/
+/*new button*/
+.read-more-state {
+  display: none;
+}
+
+.read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: 1.5s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Show more';
+}
+
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less';
+}
+
+.read-more-trigger {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.6em;
+  color: #666;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #ddd;
+  border-radius: .25em;
+}
+
+/* Other style  
+body {
+  padding: 2%;
+}
+
+p {
+  padding: 2%;
+  background: #fff9c6;
+  color: #c7b27e;
+  border: 1px solid #fce29f;
+  border-radius: .25em;
+}
+
+/*border css transition*/
+
