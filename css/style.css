@@ -65,7 +65,7 @@ p{
 }
 
 #testimonial{
-  background:#425763;
+  background:#DEE5E9;
   padding: 50px 0 30px 0;
   text-align:center;
   margin-top:40px;
@@ -79,12 +79,12 @@ p{
 }
 
 #testimonial2{
-  color: white;
+  color: black;
   padding: 0px 0 0px 0;
   text-align:center;
   margin-top:10px;
   margin-bottom: 10px;
-  background: #425763;
+  background: #DEE5E9;
 }
 
 #testimonial p.customer{
@@ -164,17 +164,50 @@ footer{
 
 .fab {
   position: absolute  ;
-  top: 540px;
-  left:690px;  
-  color: white
-   
+  top: 520px;
+  left:150px;  
+  color: white  
 }
+
+.fas {
+  position: absolute  ;
+  top: 610px;
+  left:150px;  
+  color: white  
+}
+
+#git-acc{
+  
+    position: absolute  ;
+    top: 520px;
+    left:230px;   
+}
+
+#g-acc{
+  
+  position: absolute  ;
+  top: 606px;
+  left:230px;   
+}
+
+
+#git{
+  color: white;
+}
+
+
 h3{
   color: #e9eef1;
 }
 
-.centered{
-  text-align: center;
+
+#hello2{
+  color: white;
+  font-size: 5em;
+  position: absolute  ;
+  top: 250px;
+  left:880px;   
+
 }
 
 /*fwc animation*/
