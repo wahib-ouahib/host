@@ -24,7 +24,7 @@ p{
 }
 
 .navbar-default{
-  background:#d4d4dc00;
+  background:#d4d4dc67
   border:0;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.5em;
@@ -33,7 +33,7 @@ p{
 }
 
 .navbar-default {
-  background-color:#c6ebeb00;
+  background-color:#d4d4dc3f;
   background-image: none;
   background-repeat: no-repeat;
  }
@@ -65,7 +65,7 @@ p{
 }
 
 #testimonial{
-  background:#68A7DA;
+  background:#425763;
   padding: 50px 0 30px 0;
   text-align:center;
   margin-top:40px;
@@ -79,11 +79,12 @@ p{
 }
 
 #testimonial2{
-  
+  color: white;
   padding: 0px 0 0px 0;
   text-align:center;
   margin-top:10px;
   margin-bottom: 10px;
+  background: #425763;
 }
 
 #testimonial p.customer{
@@ -148,13 +149,32 @@ footer{
 /*top particles animation*/
 
 #particles-js{
-  height: 80%;
-  background-image: url(/img/mac2.jpg);
+  height: 100%;
+  background-image: url(/img/mac.png);
+  margin-top: -20px;
 }
 
 #hello{
   text-align: center;
   margin-top: -20px;
+}
+
+
+/*Icons*/
+
+.fab {
+  position: absolute  ;
+  top: 540px;
+  left:690px;  
+  color: white
+   
+}
+h3{
+  color: #e9eef1;
+}
+
+.centered{
+  text-align: center;
 }
 
 /*fwc animation*/
