@@ -3,7 +3,11 @@ body{
   font-size:16px;
 }
 
-h1,h2,h3,h4,h5,h6{
+#wtf{
+  font-size: 1.5em;
+}
+
+,h2,h3,h4,h5,h6{
   font-family:'Josefin Sans', cursive;
 }
 
@@ -25,8 +29,7 @@ p{
 }
 
 .navbar-default{
-  background:#d4d4dc67
-  border:0;
+  background:#d4d4dc67;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.5em;
   font-weight: bold;
@@ -34,7 +37,7 @@ p{
 }
 
 .navbar-default {
-  background-color:#d4d4dc3f;
+  background-color:#fdfdff00;
   background-image: none;
   background-repeat: no-repeat;
  }
@@ -50,7 +53,7 @@ p{
   margin: 100px;
 }
 
-#showcase h1{
+#showcase {
   font-size:50px;
   margin-bottom:20px;
 }
@@ -135,7 +138,7 @@ footer{
   padding:30px;
 }
 
-.h1{
+.{
   
   font-family: 'Josefin Sans';
   margin-bottom: 0 px;
@@ -154,9 +157,9 @@ footer{
 /*top particles animation*/
 
 #particles-js{
-  height: 100%;
+  
   background-image: url(/img/mac.png);
-  margin-top: -20px;
+  margin-top: -70px;
 }
 
 #hello{
@@ -210,8 +213,8 @@ h3{
   color: white;
   font-size: 5em;
   position: absolute  ;
-  top: 250px;
-  left:880px;   
+  top: 320px;
+  left:890px;   
 
 }
 
@@ -267,3 +270,60 @@ p {
 
 /*border css transition*/
 
+
+
+/*hover text under line transition*/
+            /*black*/
+
+.cool-link {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+}
+
+.cool-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #000;
+  transition: width .3s;
+}
+
+.cool-link:hover::after {
+  width: 100%;
+  //transition: width .3s;
+}
+
+/*hover text under line transition*/
+            /*white*/
+
+.cool-link2 {
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.cool-link2::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width .3s;
+}
+
+.cool-link2:hover::after {
+  width: 100%;
+  //transition: width .3s;
+}
+
+
+
+
+
+
+/*coloring navbar-fonts*/
+#nav-fonts{
+  color: black
+}
