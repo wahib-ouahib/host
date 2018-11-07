@@ -463,13 +463,12 @@ p {
 }
 
 .hovereffect h2 {
-  text-transform: uppercase;
   text-align: center;
   position: relative;
-  font-size: 17px;
+  font-size: 22px;
   background-color: transparent;
   color: #FFF;
-  padding: 1em 0;
+  padding: 6em 0;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: opacity 1s, -webkit-transform 1s;
@@ -546,13 +545,13 @@ p {
 }
 
 .hovereffect2 h2 {
-  text-transform: uppercase;
+  
   text-align: center;
   position: relative;
-  font-size: 17px;
+  font-size: 22px;
   background-color: transparent;
   color: #FFF;
-  padding: 1em 0;
+  padding: 6em 0;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: opacity 1s, -webkit-transform 1s;
@@ -577,4 +576,15 @@ p {
   filter: alpha(opacity=100);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
+}
+
+
+
+
+#copyright{
+  font-size: 1.1em;
+}
+
+.t-c{
+  text-shadow: #000;
 }
