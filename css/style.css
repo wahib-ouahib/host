@@ -7,30 +7,30 @@ body{
   font-size: 1.5em;
 }
 
-,h2,h3,h4,h5,h6{
-  font-family:'Josefin Sans', cursive;
+h1,h2,h3,h4,h5,h6{
+  font-family:'Montserrat', sans-serif;
 }
 
 p{
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2em;
 }
 
 .ul2{
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.6em;
 }
 
 
 .quote{
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: white;
   
 }
 
 .navbar-default{
   background:#d4d4dc67;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.5em;
   font-weight: bold;
   text-decoration: underline
@@ -46,7 +46,7 @@ p{
   font-size:20px;
   color:#0c4668;
   font-weight:bold;
-  font-family: 'Yesteryear', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #showcase{
@@ -82,7 +82,7 @@ p{
 
 #testimonial p{
   font-size:32px;
-  font-family: 'Yesteryear', cursive;
+  font-family: 'Montserrat', sans-serif;
   color:white;
 }
 
@@ -154,10 +154,14 @@ footer{
 
 .{
   
-  font-family: 'Josefin Sans';
+  font-family: 'Montserrat';
   margin-bottom: 0 px;
 }
 
+.s{
+  margin-top: 20px;
+  padding-top: 40px; 
+}
 
 /*experience pro*/
 
@@ -387,7 +391,7 @@ p {
   width: 100%;
   opacity: 0;
   transition: .8s ease;
-  background-color: rgba(0, 139, 186, 0.561);
+  background-color: rgba(0, 56, 88, 0.589);
 }
 
 .container:hover .overlay {
