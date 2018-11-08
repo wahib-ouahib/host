@@ -52,3 +52,12 @@ window.sr = ScrollReveal();
         }
       });
     });
+
+//listen to submit form
+document.getElementById('contact-form').addEventListener('submit', submitForm);
+
+function submitForm(e){
+
+
+  console.log(123)
+}
