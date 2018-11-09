@@ -78,6 +78,8 @@ p{
   text-align:center;
   margin-top:60px;
   margin-bottom: 60px;
+  border: 2px solid #1d475f;
+  border-radius: 5px; 
 }
 
 #testimonial p{

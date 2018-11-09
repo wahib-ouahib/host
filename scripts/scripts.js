@@ -1,3 +1,22 @@
+
+// Initialize Firebase
+var config = {
+  apiKey: "AIzaSyBXjI3lbVdj8Tr5hzW1wptShhYtxRAX_tQ",
+  authDomain: "mywebsite-e48ae.firebaseapp.com",
+  databaseURL: "https://mywebsite-e48ae.firebaseio.com",
+  projectId: "mywebsite-e48ae",
+  storageBucket: "mywebsite-e48ae.appspot.com",
+  messagingSenderId: "653826488405"
+};
+firebase.initializeApp(config);
+
+//reference messages collection
+var messagesRef = firebase.database().ref('messages');
+
+
+
+
+
 window.sr = ScrollReveal();
         sr.reveal('.navbar', {
           duration: 2000,
@@ -53,11 +72,37 @@ window.sr = ScrollReveal();
       });
     });
 
+
+
 //listen to submit form
 document.getElementById('contact-form').addEventListener('submit', submitForm);
 
+
+//submit form
 function submitForm(e){
+  e.preventDefault();
 
+  //get values
+  var name = getInputVal('name');
+  var email = getInputVal('email');
+  var message = getInputVal('message');
+  
 
-  console.log(123)
+  //save message
+  saveMessage(name, email, message);
+}
+
+//function to get form values
+function getInputVal(id){
+  return document.getElementById(id).value;
+}
+
+//save message to firebase
+function saveMessage(name, email, message){
+  var newMessageRef = messagesRef.push();
+  newMessageRef.set({
+    name: name,
+    email: email,
+    message: message
+  });
 }

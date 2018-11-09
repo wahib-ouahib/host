@@ -6,12 +6,11 @@
     <link href="https://fonts.googleapis.com/css?family=Bad+Script|Kaushan+Script|Marck+Script|Sacramento|Yesteryear" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="shortcut icon" type="image/png" href="/img/logo.png"/>
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
     <!----link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.7/css/mdb.min.css" /-->
     <link rel="stylesheet" href="css/style.css">
     <!----link rel="stylesheet" href="css/contact.css"-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.7/js/mdb.min.js"></script>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
   </head>
 
@@ -297,16 +296,16 @@
             <form id="contact-form">
               <p class="contact-labels">
                 <label>Name: </label>
-                <input class="form-control" type="text" name="" value="" placeholder="Enter Name" required>
+                <input id="name" class="form-control" type="text" name="name" placeholder="Enter Name" required>
               </p>
               
               <p class="contact-labels">
                 <label >Email: </label>
-                <input class="form-control" type="email" name="" value="" placeholder="Enter Email" required>
+                <input id="email" class="form-control" type="email" name="email" placeholder="Enter Email" required>
               </p>
               <p class="contact-labels">
                 <label>Message: </label>
-                <textarea class="form-control" name="" value="" placeholder="Enter Message" required></textarea>
+                <textarea id="message" class="form-control" name="message" placeholder="Enter Message" required></textarea>
               </p>
               <p>
                 <button type="submit" class="btn btn-primary btn-lg">Submit</button>
@@ -329,12 +328,12 @@
     </footer>
 
     <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
   crossorigin="anonymous"></script>
     
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+    <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
     <script src="scripts/scripts.js"> </script>      
   </body>
 </html>
