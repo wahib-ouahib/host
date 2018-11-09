@@ -592,3 +592,7 @@ p {
 .t-c{
   text-shadow: #000;
 }
+
+.contact-labels{
+  font-size: 1.2em;
+}
