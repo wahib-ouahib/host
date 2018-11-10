@@ -17,6 +17,8 @@ var messagesRef = firebase.database().ref('messages');
 
 
 
+
+
 window.sr = ScrollReveal();
         sr.reveal('.navbar', {
           duration: 2000,
@@ -90,7 +92,21 @@ function submitForm(e){
 
   //save message
   saveMessage(name, email, message);
+
+  //show alert
+  document.querySelector('.alert').style.display = 'block';
+
+  //hide alert after 3 sec
+  setTimeout(function(){
+    document.querySelector('.alert').style.display = 'none';
+  },3000);
+
+
+  document.getElementById('contact-form').reset();
+
 }
+
+
 
 //function to get form values
 function getInputVal(id){
@@ -106,5 +122,6 @@ function saveMessage(name, email, message){
     message: message
   });
 }
+
 
 
