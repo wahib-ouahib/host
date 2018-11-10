@@ -224,6 +224,13 @@ img{
   left:1270px;   
 }
 
+#t-acc{
+  
+  position: absolute  ;
+  top: 690px;
+  left:1270px;   
+}
+
 
 #git{
   color: #3E3750;
@@ -786,22 +793,7 @@ label{
   white-space: nowrap;
   overflow: hidden;transform: translateY(-50%);
 }
-.line2 {
-  position: relative;
-  top: 50%;
-  width: 16em;
-  margin: 0 auto;
-  border-right: 2px solid rgba(255, 255, 255, 0.75);
-  font-size: 180%;
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;transform: translateY(-50%);
-}
 
-.anim-typewriter2 {
-  animation: typewriter2 4s steps(40) 1s 1 normal both,
-  blinkTextCursor 800ms steps(40) infinite normal;
-}
 
 @keyframes typewriter2 {
   from {
