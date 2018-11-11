@@ -1,0 +1,22 @@
+{
+  "name": "wahib",
+  "version": "1.0.0",
+  "description": "wahib's portfolio",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wahib-ouahib/host.git"
+  },
+  "author": "wahib med ouahib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wahib-ouahib/host/issues"
+  },
+  "homepage": "https://github.com/wahib-ouahib/host#readme",
+  "dependencies": {
+    "animate.css": "^3.7.0"
+  }
+}
