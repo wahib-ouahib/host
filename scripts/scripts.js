@@ -9,19 +9,6 @@ $(function () {
 
 
 
-// Initialize Firebase
-var config = {
-  apiKey: "AIzaSyBXjI3lbVdj8Tr5hzW1wptShhYtxRAX_tQ",
-  authDomain: "mywebsite-e48ae.firebaseapp.com",
-  databaseURL: "https://mywebsite-e48ae.firebaseio.com",
-  projectId: "mywebsite-e48ae",
-  storageBucket: "mywebsite-e48ae.appspot.com",
-  messagingSenderId: "653826488405"
-};
-firebase.initializeApp(config);
-
-//reference messages collection
-var messagesRef = firebase.database().ref('messages');
 
 
 
@@ -83,6 +70,23 @@ window.sr = ScrollReveal();
         }
       });
     });
+
+
+
+// Initialize Firebase
+var config = {
+  apiKey: "AIzaSyBXjI3lbVdj8Tr5hzW1wptShhYtxRAX_tQ",
+  authDomain: "mywebsite-e48ae.firebaseapp.com",
+  databaseURL: "https://mywebsite-e48ae.firebaseio.com",
+  projectId: "mywebsite-e48ae",
+  storageBucket: "mywebsite-e48ae.appspot.com",
+  messagingSenderId: "653826488405"
+};
+firebase.initializeApp(config);
+
+//reference messages collection
+var messagesRef = firebase.database().ref('messages');
+
 
 
 
