@@ -2,7 +2,7 @@
 $(function () {
   $(document).scroll(function () {
     var $nav = $(".navbar-fixed-top");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height()+200);
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height()+100);
   });
 });
 
