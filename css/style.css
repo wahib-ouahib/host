@@ -634,7 +634,7 @@ p {
 }
 
 .fish{
-	background-image: url('http://www.geertjanhendriks.nl/codepen/form/fish.png');
+	background-image: url('../img/fish.png');
 	width: 235px;
   height: 172px;
 	margin-left: -235px;
@@ -660,7 +660,7 @@ p {
 
 .before{
 	
-	background: url('http://www.geertjanhendriks.nl/codepen/form/golf.png') repeat-x bottom;
+	background: url('../img/golf.png') repeat-x bottom;
 }
 
 .alert{
@@ -686,10 +686,7 @@ form{
   max-width: 26%;
 	padding-top: 280px;
 	color: white;
-  position: inherit;
-  
-	
-	
+  position: inherit;	
 }
 
 
@@ -738,7 +735,7 @@ input[type="submit"]{
 	transition: background-color 0.5s;
 }
 input[type="submit"]:hover{
-	background-color: #1554c9;
+	background-color: #36c78b;
 	
 }
 label{
@@ -758,16 +755,6 @@ label{
 	padding-top: 20px;
 }
 
-.formgroup{
-	background-image: url('http://www.geertjanhendriks.nl/codepen/form/pixel.gif');	
-}
-.formgroup-active{
-	background-image: url('http://www.geertjanhendriks.nl/codepen/form/octo.png');
-}
-.formgroup-error{
-	background-image: url('http://www.geertjanhendriks.nl/codepen/form/octo-error.png');
-	color: red;
-}
 .prj3{
   padding-bottom: 200px;
 }
