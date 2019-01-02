@@ -187,23 +187,23 @@ footer{
 /*Icons*/
 
 #fab1 {
-  position: absolute  ;
-  top: 560px;
-  left:1202.5px;  
+  position: absolute;
+  bottom: 40%;
+  left: 60%;  
   color: #3E3750;  
 }
 
 #fab2 {
   position: absolute  ;
-  top: 692px;
-  left:1200px;  
+  bottom: 26%;
+  left: 60%;   
   color: #3E3750;  
 }
 
 .fas {
   position: absolute  ;
-  top: 623.9px;
-  left:1200px;  
+  bottom: 33%;
+  left: 60%;   
   color: #3E3750;  
 }
 
