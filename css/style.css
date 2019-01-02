@@ -188,21 +188,21 @@ footer{
 
 #fab1 {
   position: absolute;
-  bottom: 40%;
+  top: 560px;
   left: 60%;  
   color: #3E3750;  
 }
 
 #fab2 {
   position: absolute  ;
-  bottom: 26%;
+  top: 690px;
   left: 60%;   
   color: #3E3750;  
 }
 
 .fas {
   position: absolute  ;
-  bottom: 33%;
+  top: 620px;
   left: 60%;   
   color: #3E3750;  
 }
